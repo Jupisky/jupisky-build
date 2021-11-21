@@ -3,3 +3,7 @@ from = "https://jupisky.netlify.app/*"
 to = "https://jupisky.com/"
 status = 301
 force = true
+[[redirects]]
+from = "/*"
+to = "/"
+status = 200
